@@ -72,7 +72,7 @@ class News extends \Sellastica\Entity\Entity\AbstractEntity
 			$this->parentToArray(),
 			[
 				'title' => $this->title,
-				'nazev' => $this->description,
+				'description' => $this->description,
 			]
 		);
 	}
