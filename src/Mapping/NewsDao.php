@@ -14,6 +14,8 @@ use Sellastica\Entity\Mapping\Dao;
  */
 class NewsDao extends Dao
 {
+	use \Sellastica\DataGrid\Mapping\Dibi\TFilterRulesDao;
+	
 	/**
 	 * @inheritDoc
 	 */

@@ -9,6 +9,8 @@ use Sellastica\Entity\Mapping\DibiMapper;
  */
 class NewsDibiMapper extends DibiMapper
 {
+	use \Sellastica\DataGrid\Mapping\Dibi\TFilterRulesDibiMapper;
+	
 	/**
 	 * @return bool
 	 */

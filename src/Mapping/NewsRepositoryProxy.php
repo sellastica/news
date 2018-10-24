@@ -11,4 +11,5 @@ use Sellastica\News\Entity\News;
  */
 class NewsRepositoryProxy extends RepositoryProxy implements INewsRepository
 {
+	use \Sellastica\DataGrid\Mapping\Dibi\TFilterRulesRepositoryProxy;
 }

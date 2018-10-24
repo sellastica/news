@@ -11,4 +11,5 @@ use Sellastica\Entity\Mapping\Repository;
  */
 class NewsRepository extends Repository implements INewsRepository
 {
+	use \Sellastica\DataGrid\Mapping\Dibi\TFilterRulesRepository;
 }
